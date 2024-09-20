@@ -52,9 +52,19 @@ function divd(a, b){
 }
 
 console.log(divd(6, 7))
-console.log(divd(600, 9))*/
+console.log(divd(600, 9))
 
 function saudacao(nome){
     console.log("Ola," + nome);
 }
-saudacao("Fernando")
+saudacao("Fernando");*/
+
+//Condicionais(if/else)
+let idade = 18;
+if (idade >= 18){
+    console.log("Voce e maior de idade.");
+} else {
+    console.log("Voce nao e maior de idade.");
+}
+
+
