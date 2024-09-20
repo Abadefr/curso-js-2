@@ -57,7 +57,7 @@ console.log(divd(600, 9))
 function saudacao(nome){
     console.log("Ola," + nome);
 }
-saudacao("Fernando");*/
+saudacao("Fernando");*
 
 //Condicionais(if/else)
 let idade = 18;
@@ -65,7 +65,7 @@ if (idade >= 18){
     console.log("Voce e maior de idade.");
 } else {
     console.log("Voce nao e maior de idade.");
-}
+}*/
 
 let hora = 10;
 if(hora < 12) {
@@ -74,4 +74,15 @@ if(hora < 12) {
     console.log("Boa tarde!");
 }else {
     console.log("Boa noite!");
+}
+
+let idade = 63
+if(idade <= 12) {
+    console.log("Criança")
+}else if( idade >= 13 && idade <= 17) {
+    console.log("Adolecente")
+}else if(idade >= 18 && idade <=63){
+    console.log("Adulto")
+}else if(idade >= 64) {
+    console.log("Idoso")
 }
