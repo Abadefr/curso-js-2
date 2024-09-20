@@ -53,3 +53,8 @@ function divd(a, b){
 
 console.log(divd(6, 7))
 console.log(divd(600, 9))*/
+
+function saudacao(nome){
+    console.log("Ola," + nome);
+}
+saudacao("Fernando")
