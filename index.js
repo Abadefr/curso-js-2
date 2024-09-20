@@ -67,4 +67,11 @@ if (idade >= 18){
     console.log("Voce nao e maior de idade.");
 }
 
-
+let hora = 10;
+if(hora < 12) {
+    console.log("Bom dia!");
+} else if (hora < 18) {
+    console.log("Boa tarde!");
+}else {
+    console.log("Boa noite!");
+}
